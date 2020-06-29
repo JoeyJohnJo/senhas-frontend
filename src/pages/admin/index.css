@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* { font-family: 'Raleway', sans-serif; }
+.icon { color: #000; }
+a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  min-height: 100vh;
+}
+.top {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  min-width: 100%;
+  margin-bottom: 5vw;
+}
+.top h1 { text-align: center;}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  border-right: 3px solid #000;
+  background-color: #fff;
+}
+.callboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 40vh;
+}
+.callboard p {
+  font-size: 8vw;
+  margin: 0;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(247, 247, 247);
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  min-width: 20vw;
+  min-height: 10vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  color: #fff;
+}
+.button:hover {
+  box-shadow: 0px 0px 5px 5px #afafaf;
+  cursor: pointer;
+}
+
+.normal {
+  background-color: #194ab4;
+}
+.preferential {
+  background-color: #eb2a08;
+}
+.yourPass {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 1300px) {
+  .grid {
+    display: flex !important;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+}

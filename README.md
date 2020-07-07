@@ -1,5 +1,3 @@
-Este projeto foi criado como parte do processo seletivo para PariPassu.
-
 ## Passo a passo
 
 Este projeto está disponível para vizualização em https://jjj-senhas-front.herokuapp.com, não é necessário baixá-lo para executar;
